@@ -1,0 +1,243 @@
+/*------------------------------------*/
+/*==              GENERAL             */
+/*------------------------------------*/
+
+body 
+{
+	font-family: "Roboto", sans-serif;
+	display:flex;
+	justify-content: center;
+}
+
+/*------------------------------------*/
+/*==              HEADER              */
+/*------------------------------------*/
+
+
+header
+{
+	display: flex;
+ 	justify-content: space-between;
+}
+
+nav li 
+{
+	list-style: none;
+	padding-bottom:10px;
+}
+
+
+/* ---------------------------------------- */
+/* ==            BANNER                    */
+/*---------------------------------------- */
+
+#ban 
+{
+  background: url("images/background_image.jpg");
+  background-size: contain;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#inside_ban img
+{
+	width: 55%;
+}
+
+#inside_ban h1
+{
+	color: white;
+}
+
+#inside_ban
+{
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#description_principale h2
+{
+	color: grey;
+	font-size: 23px;
+	font-weight: 300;
+	text-align: center;	
+}
+
+
+#description_elements article
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 20px 0 20px;
+}
+
+#description_elements h3 
+{
+	font-size: 22px;
+	font-weight: 400;
+    text-transform: uppercase;
+}
+
+#description_elements p 
+{
+	font-size: 12px;
+	text-align: center;
+}
+
+#avis  
+{
+	max-width: 500px;
+	margin-top: 50px;
+}
+
+#avis h4 
+{
+	text-align: center;
+	color: grey;
+	font-weight: 300;
+}
+
+.avis_texte 
+{
+	font-size: 18px;
+
+}
+
+.signature 
+{
+	font-size: 14px;
+
+}
+
+
+/* ---------------------------------------- */
+/* ==            FOOTER                    */
+/*---------------------------------------- */
+
+
+footer 
+{
+	background-color: darkslateblue;
+	padding-top: 18px;
+}
+
+.nom_qualite
+{
+	color: white;
+	text-align: center;
+	font-size: 10px;
+}
+
+#reseaux
+{
+	display: flex;
+	justify-content: center;
+}
+
+#reseaux i
+{
+	height: 30px;
+	color: white;
+	margin: 0 35px 0 35px;
+	font-size: 30px;
+}
+
+
+#footer
+{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.footer_rubriques h1 
+{
+	color: grey;
+	margin-top: 30px;    
+	font-weight: 400;
+    font-size: 16px;
+}
+
+.footer_rubriques a 
+{
+	color:white;
+}
+
+.footer_rubriques li
+{
+	color: white;
+}
+
+.adresse
+{
+	list-style-type: none;
+}
+
+
+
+/* ---------------------------------------- */
+/* ==           MEDIA QUERIS               */
+/*----------------------------------------- */
+
+@media all and (min-width: 600px) and (max-width: 1400px)
+
+{	
+
+	#bloc_page 
+	{
+		width: 100%;
+		max-width: 1400px;
+	}
+
+
+	header 
+	{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	nav 
+	{
+    	display: flex;
+   	 align-items: center;
+	}
+
+	nav ul 
+	{
+		display: flex;
+	}
+
+	nav li 
+	{
+		list-style: none;
+	padding-left:30px;
+	}
+
+	#description
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#description_principale, #description_elements
+	{
+		max-width: 800px;
+		margin-top:30px;
+	}
+
+	#description_elements
+	{
+		display: flex;
+		justify-content: space-around;
+	}
+
+
+}
