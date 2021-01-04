@@ -1,1 +1,1 @@
-Defi-P2Mon-petit-graphisme
+Défi à relever, dans la rubrique "Ressources" du Projet 2, parcours Développeur web d'Openclassrooms
