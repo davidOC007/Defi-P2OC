@@ -2,8 +2,7 @@
 /*==              GENERAL             */
 /*------------------------------------*/
 
-body 
-{
+body {
 	font-family: "Roboto", sans-serif;
 	display:flex;
 	justify-content: center;
@@ -14,14 +13,12 @@ body
 /*------------------------------------*/
 
 
-header
-{
+header{
 	display: flex;
  	justify-content: space-between;
 }
 
-nav li 
-{
+nav li {
 	list-style: none;
 	padding-bottom:10px;
 }
@@ -31,38 +28,33 @@ nav li
 /* ==            BANNER                    */
 /*---------------------------------------- */
 
-#ban 
-{
-  background: url("images/background_image.jpg");
-  background-size: contain;
-  height: 450px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+#ban {
+	background: url("images/background_image.jpg");
+  	background-size: contain;
+  	height: 450px;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
 }
 
-#inside_ban img
-{
+#inside_ban img{
 	width: 55%;
 }
 
-#inside_ban h1
-{
+#inside_ban h1{
 	color: white;
 }
 
-#inside_ban
-{
-	display: flex;
+#inside_ban{
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 
-#description_principale h2
-{
+#description_principale h2{
 	color: grey;
 	font-size: 23px;
 	font-weight: 300;
@@ -70,48 +62,41 @@ nav li
 }
 
 
-#description_elements article
-{
+#description_elements article{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 0 20px 0 20px;
 }
 
-#description_elements h3 
-{
+#description_elements h3 {
 	font-size: 22px;
 	font-weight: 400;
     text-transform: uppercase;
 }
 
-#description_elements p 
-{
+#description_elements p {
 	font-size: 12px;
 	text-align: center;
 }
 
-#avis  
-{
+#avis  {
 	max-width: 500px;
 	margin-top: 50px;
 }
 
-#avis h4 
-{
+#avis h4 {
 	text-align: center;
 	color: grey;
 	font-weight: 300;
 }
 
-.avis_texte 
-{
+.avis_texte {
 	font-size: 18px;
 
 }
 
-.signature 
-{
+.signature {
 	font-size: 14px;
 
 }
@@ -122,27 +107,23 @@ nav li
 /*---------------------------------------- */
 
 
-footer 
-{
+footer {
 	background-color: darkslateblue;
 	padding-top: 18px;
 }
 
-.nom_qualite
-{
+.nom_qualite {
 	color: white;
 	text-align: center;
 	font-size: 10px;
 }
 
-#reseaux
-{
+#reseaux {
 	display: flex;
 	justify-content: center;
 }
 
-#reseaux i
-{
+#reseaux i{
 	height: 30px;
 	color: white;
 	margin: 0 35px 0 35px;
@@ -150,33 +131,24 @@ footer
 }
 
 
-#footer
-{
+#footer {
 	display: flex;
 	justify-content: space-around;
 
 }
 
-.footer_rubriques h1 
-{
+.footer_rubriques h3 {
 	color: grey;
 	margin-top: 30px;    
 	font-weight: 400;
     font-size: 16px;
 }
 
-.footer_rubriques a 
-{
+.footer_rubriques a, li {
 	color:white;
 }
 
-.footer_rubriques li
-{
-	color: white;
-}
-
-.adresse
-{
+.adresse {
 	list-style-type: none;
 }
 
@@ -190,54 +162,45 @@ footer
 
 {	
 
-	#bloc_page 
-	{
+	#bloc_page {
 		width: 100%;
 		max-width: 1400px;
 	}
 
 
-	header 
-	{
+	header {
 		display: flex;
 		justify-content: space-between;
 	}
 
-	nav 
-	{
+	nav {
     	display: flex;
-   	 align-items: center;
+   	 	align-items: center;
 	}
 
-	nav ul 
-	{
+	nav ul {
 		display: flex;
 	}
 
-	nav li 
-	{
+	nav li {
 		list-style: none;
-	padding-left:30px;
+		padding-left:30px;
 	}
 
-	#description
-	{
+	#description {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	#description_principale, #description_elements
-	{
+	#description_principale, #description_elements {
 		max-width: 800px;
 		margin-top:30px;
 	}
 
-	#description_elements
-	{
+	#description_elements {
 		display: flex;
 		justify-content: space-around;
 	}
-
 
 }
